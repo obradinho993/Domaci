@@ -19,11 +19,11 @@
         else
             echo $drugi;    
     }
-
     ime();
 
+    
 
-
+  
 
 
     ?>

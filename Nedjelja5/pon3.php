@@ -7,13 +7,14 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
 
-        $prvi = "Dragutin";
-        $drugi = "Milutin";
+<?php
 
-        
-     function krace_ime(){
+    $prvi = "Dragutin";
+    $drugi = "Milutin";
+
+    
+    function krace_ime(){
         global $prvi, $drugi;
         if (strlen($prvi)> strlen($drugi)){
             echo "<p style ='color :green'>$drugi<p>";
@@ -31,9 +32,10 @@
     }
 
     echo "<p>".krace_ime()."<p>";
-  
 
-    
-    ?>
+
+
+?>
+
 </body>
 </html>

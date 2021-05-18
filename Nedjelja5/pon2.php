@@ -7,10 +7,10 @@
     <title>Document</title>
 </head>
 <body>
-    <?php
-     $prvi = "Dragutin";
-     $drugi = "Milutin";
-        
+<?php
+        $prvi = "Dragutin";
+        $drugi = "Milutin";
+
         function duze_ime(){
             global $prvi, $drugi;
             if (strlen($prvi)> strlen($drugi))
@@ -20,7 +20,9 @@
         }
    
         echo "<p>".duze_ime()."<p>";
-    
+   
+
     ?>
+ 
 </body>
 </html>
