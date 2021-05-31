@@ -13,7 +13,7 @@
         $treci = $_GET['treci'];
         $cetvrti = $_GET['cetvrti'];
 
-        if($prvi>$drugi and $treci >$cetvrti)
+        if($prvi>$drugi or $treci >$cetvrti)
             die("Nije u redu");
         else{
             $zbir = 0;
